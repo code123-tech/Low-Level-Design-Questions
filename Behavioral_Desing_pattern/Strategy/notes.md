@@ -1,4 +1,4 @@
 - Strategy Design pattern is most useful and common Behavioural design patter.
 - It indicates that when you have multiple strategies, or algorithms, then  on the basis of end-users' selected strategy,
-- that class is executed.
+   that class is executed.
 - 
