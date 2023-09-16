@@ -1,5 +1,6 @@
 - Decorator Pattern is used to enhance the behaviour of an instance at runtime.
-- It basically not an inheritance, but it creates a wrapper around a base instance, and that wrapper itself is a base instance.
+- It basically not an inheritance, but it creates a wrapper around a base instance, and that wrapper itself is a 
+  base instance.
 - Now, we can also wrap the above created wrapper with another wrapper, and that wrapper also belongs to base instance.
 - Its uniqueness is like, "The decorator class needs both Has-A relationship and Is-A relationship.
 
