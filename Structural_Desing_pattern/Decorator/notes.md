@@ -4,7 +4,7 @@
 - Now, we can also wrap the above created wrapper with another wrapper, and that wrapper also belongs to base instance.
 - Its uniqueness is like, "The decorator class needs both Has-A relationship and Is-A relationship.
 
-For example, We have a Ice-cream base class, now on this base class we want to add honey, and cherry, so at the end we want SimpleIceCream + Honey + Cherry. and want to calculate its cost.
+For example, We have an Ice-cream base class, now on this base class we want to add honey, and cherry, so at the end we want SimpleIceCream + Honey + Cherry. and want to calculate its cost.
 
 Another Example, Let's take BasePizza (Magrehita, CheesePizza, VegDelinePizza, FarmerPizza).  
 Suppose, we want to decorate the above basePizza either with mushrooms, or ExtraCheese or etc.
