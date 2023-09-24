@@ -15,7 +15,7 @@
 #### Elements
 - ArrayBlockingQueue<?> to produce and consume tasks asynchronously, it's a fixed-sized array holds elements inserted by 
 producers and extracted by consumers.
-- Executors to create a thread pool of size 100 for producers and consumers.
+- Executors to create a thread pool of size 100 for producers and consumers. [Understand Executors from here](https://github.com/code123-tech/Basics_Java_With_OOP_Concepts/blob/main/Concurrency/ExecutorsHansOn.java)
 - ApplicationGeneratedMessage: Supports for application to generate message with multiple Mediums supported.
 - PrintableMessage: the message holds level, medium, applicationGeneratedMessage object and this printableMessage gets 
 produced and printed/consumed by arrayBlockingQueue.
