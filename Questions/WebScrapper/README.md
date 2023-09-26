@@ -10,6 +10,8 @@
     - Request consists request information such url, headers, params - Request
     - Response consists response information such as code, message, data.
 
+![Flow](./Flow.png)
+
 #### Elements
 - ArrayBlockingQueue<?> to produce and consume tasks asynchronously, it's a fixed-sized array holds elements inserted by
   producers and extracted by consumers.
@@ -23,3 +25,9 @@
   element is pushed or not.
 - Utils/Data.java: to get examples Request list.
 
+- Other Similar Examples to Do: 
+1. Parallel Image Processing: We have multiple Images, we want them to processed in a fast way.
+2. Download Manager: We have multiple locations, we want to download files from those location fast and parallely.
+
+In above approach, we can create an executor pool, and provide that pool to a runnable task (image processing or download 
+from location).
