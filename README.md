@@ -27,6 +27,7 @@
 - [Snake And Ladder](./Questions/SnakeAndLadder)
 - [Tic and Toe](./Questions/TicTaeToe)
 - [Vehicle Rental System](./Questions/VehicleRentalSystem)
+- [Web Scrapper](./Questions/WebScrapper)
 
 
 For Understanding Basic Java, and OOPs concepts, go to: https://github.com/code123-tech/Basics_Java_With_OOP_Concepts 
