@@ -28,6 +28,7 @@
 - [Tic and Toe](./Questions/TicTaeToe)
 - [Vehicle Rental System](./Questions/VehicleRentalSystem)
 - [Web Scrapper](./Questions/WebScrapper)
+- [Kafka Low Level](./Questions/Kafka)
 
 
 For Understanding Basic Java, and OOPs concepts, go to: https://github.com/code123-tech/Basics_Java_With_OOP_Concepts 
