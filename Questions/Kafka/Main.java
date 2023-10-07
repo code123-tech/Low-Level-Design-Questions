@@ -23,7 +23,7 @@ public class Main {
          */
         TopicService topicService = new TopicServiceImpl(new TopicRepositoryImpl(), new RoundRobin_MessagePublishStrategy());
         Topic topic = topicService.createTopic("rider_updates", 4);
-        ExecutorService executor = Executors.newFixedThreadPool(10);
+        ExecutorService executor = Executors.newFixedThreadPool(2);
 
         Producer producer = new Producer();
         executor.execute(new ProducerWorker(topic, producer,topicService));
