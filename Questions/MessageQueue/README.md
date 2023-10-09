@@ -37,9 +37,24 @@ want to publish a new Message?
 ### Models/Entities
 * Topic
 * Message
-* TopicSubscriberRelation --> to show subscriber of the topic, and offset for that subscriber for the topic.
+* TopicSubscriber --> to show subscriber, and offset for that subscriber for the topic.
 * Publisher  (Not needed actually as currently we ourselves are producing messages and publishing)
 * Subscribers/SleepSubscriberImpl  --> (Subscriber)
+
+### Application Classes
+Basically This MessageQueue follows a very famous [Observer Design Patter](./../../Behavioral_Desing_pattern/Observer)
+* SubscriberWorker.java: Each subscriber is doing work separately in separate thread, so this is the place where runnable interface 
+  is implemented. 
+  * Fetches Current Offset of subscriber.
+  * Based on offset, fetches message from the messages present in the topic.
+  * tell subscriber to consume that message.
+  * update offset for the subscriber to +1.
+* TopicObservable.java: This is the Observable which is being observed by subscribers. It does operations
+  * publish/notifySubscribers: It has subscriber pointing to its own worker thread, so whenever message is published to topic, from here all the
+            subscriber subscribed to that topic are notified.
+* core/Impl/MessageQueueImpl: The actual core logic related to a MessageQueue is written here like: createTopic(), publishMessage(),
+        subscriberToTopic(), resetOffsetCounterForSubscriber.
+
 
 
 

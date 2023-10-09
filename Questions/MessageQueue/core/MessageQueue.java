@@ -8,5 +8,5 @@ public interface MessageQueue {
     Topic createTopic(String topicName);
     void publishToTopic(Topic topic, Message message);
     void subscribeToTopic(Subscriber subscriber, Topic topic);
-    void resetOffsetForSubscriber(Subscriber subscriber, int resetOffsetValue, Topic topic);
+    void resetOffsetForSubscriber(Subscriber subscriber, Integer resetOffsetValue, Topic topic);
 }
