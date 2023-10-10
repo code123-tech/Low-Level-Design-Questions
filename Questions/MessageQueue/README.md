@@ -55,6 +55,11 @@ Basically This MessageQueue follows a very famous [Observer Design Patter](./../
 * core/Impl/MessageQueueImpl: The actual core logic related to a MessageQueue is written here like: createTopic(), publishMessage(),
         subscriberToTopic(), resetOffsetCounterForSubscriber.
 
+### Diagram
+1. Use Case Diagram
+![Image](./UseCase.png)
+
+
 
 
 
