@@ -27,6 +27,7 @@
 - [Vehicle Rental System](./Questions/VehicleRentalSystem)
 - [Web Scrapper](./Questions/WebScrapper)
 - [Kafka Low Level](./Questions/Kafka)
+- [Messaging Queue](./Questions/MessageQueue)
 - [Google Calendar](./Questions/Google_Calendar)
 - [BookMy Show](./Questions/BookMy_Show)
 - [MultiThreaded Logger](./Questions/MultiThreadedLogger)
