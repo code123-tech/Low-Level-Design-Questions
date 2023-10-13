@@ -26,6 +26,7 @@ User has power to accept/reject the event invite from others.
       be considered.
 3. Do we have to validate a user when some-one is adding it, ki user exist or not.
 4. What if common time doesn't exist, how our algo should go?
+5. We can add limit on number of owner for an event?
 
 ### Possible Use cases
 1. User creates an Event by putting eventType, and details as per eventType.
@@ -58,10 +59,14 @@ User has power to accept/reject the event invite from others.
 7. CalendarView: YEAR, MONTH, DAY.
 8. EventStatus: CREATED, CANCELLED, RUNNING, COMPLETED; 
 9. EventType: MEETING, REMINDER, BIRTHDAY;
-10. UserAcceptanceStatus: ACCEPTED, REJECTED, PENDING;
+10. MemberAcceptanceStatus: ACCEPTED, REJECTED, PENDING;
 
 ### Application Classes
 1. Models/*.java ==> All models as shown above (Already Explained).
 2. enums/*.java ==> All enums as shown above (Already explained).
-3. 
+3. repository/EventRepository ==> to create, update, delete, and read events.
+4. repository/EventAcceptanceRepository ==> to accept, reject member's status for an event 
+                                            and getStatus of a member's acceptance for an event.
+5. service/EventService ===> For getting list of events, create, update, delete event. accept and reject event.
+
 ### Diagram

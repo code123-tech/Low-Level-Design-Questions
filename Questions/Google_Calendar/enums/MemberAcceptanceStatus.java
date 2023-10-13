@@ -1,5 +1,5 @@
 package Questions.Google_Calendar.enums;
 
-public enum UserAcceptanceStatus {
+public enum MemberAcceptanceStatus {
     ACCEPTED, REJECTED, PENDING;
 }
