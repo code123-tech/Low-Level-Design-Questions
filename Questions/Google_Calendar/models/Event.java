@@ -4,6 +4,7 @@ import Questions.Google_Calendar.enums.EventStatus;
 import Questions.Google_Calendar.enums.EventType;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Event {
     private String eventId;
@@ -127,6 +128,18 @@ public class Event {
         this.organizers = organizers;
     }
 
+    public Member getOrganizerAtLocation(int location){
+        if(location >= this.organizers.size()){
+            return null;
+        }
+        return this.organizers.stream().collect(Collectors.toList()).get(location);
+    }
+    public Participant getParticipantAtLocation(int location){
+        if(location >= this.participants.size()){
+            return null;
+        }
+        return this.participants.stream().collect(Collectors.toList()).get(location);
+    }
     public void setLocation(String location){this.location=location;}
     public void setStartTime(Long startTime){this.startTime=startTime;}
     public void setEndTime(Long endTime){this.startTime=endTime;}

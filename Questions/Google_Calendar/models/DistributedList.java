@@ -1,5 +1,7 @@
 package Questions.Google_Calendar.models;
 
+import Questions.Google_Calendar.service.EventMemberService;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,11 +19,11 @@ public class DistributedList extends Participant{
         this.members.add(member);
     }
     @Override
-    public void updateEvent(Event event) {
-
+    public void updateEvent(Event event,  EventMemberService eventVisitor) {
+        eventVisitor.updateEvent(this, event);
     }
     @Override
-    public void deleteEvent(Event event) {
-
+    public void deleteEvent(Event event,  EventMemberService eventVisitor) {
+        eventVisitor.deleteEvent(this, event);
     }
 }
