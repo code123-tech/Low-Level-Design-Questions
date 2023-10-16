@@ -68,5 +68,9 @@ User has power to accept/reject the event invite from others.
 4. repository/EventAcceptanceRepository ==> to accept, reject member's status for an event 
                                             and getStatus of a member's acceptance for an event.
 5. service/EventService ===> For getting list of events, create, update, delete event. accept and reject event.
+6. service/EventMemberService ==> This Service enables event members to accept/reject the event invitation, This interacts with
+         EventAcceptance Repo where either event is accepted or rejected.
 
 ### Diagram
+1. Use Case Diagram
+![Image](./UseCase.png)
