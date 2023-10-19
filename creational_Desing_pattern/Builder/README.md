@@ -1,5 +1,7 @@
 - Builder Pattern is a creational design pattern that allows us to create an instance of complex class that contains a large 
 number of fields, and we want to set some fields at a time. 
+- Builder Pattern constructs instance with set of steps like for a House Building, steps are buildWalls, buildWindows etc.
+
 We can do like, 
 1. Create constructor of fields, but this has some problems
    1. Not always we need to create instance of constructor with all fields, in that we need to pass null to those fields.
@@ -25,5 +27,5 @@ builder to create it.
      * constructor(field1, null);  // for one person
      * constructor(field1, field2);  // for other person
 
-So, we will ask Builders to take these requirements and build house for us.
+So, we will ask Builders to take these requirements and build house for us. [Learn More here](https://refactoring.guru/design-patterns/builder)
 

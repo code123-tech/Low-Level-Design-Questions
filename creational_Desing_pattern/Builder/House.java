@@ -5,33 +5,10 @@ public class House {
     private Integer numberOfWindows;
     private String material;
 
-    private House(){}
-
-    public static class HouseBuilder{
-        private House house;
-        HouseBuilder(){
-            house = new House();
-        }
-
-        public HouseBuilder withName(String name){
-            house.name = name;
-            return this;
-        }
-
-        public HouseBuilder withNumberOfWindows(Integer numberOfWindows){
-            house.numberOfWindows = numberOfWindows;
-            return this;
-        }
-        public HouseBuilder withMaterial(String material){
-            house.material = material;
-            return this;
-        }
-
-        public House build(){
-            return house;
-        }
+    public House(){}
+    public static HouseBuilder builder(){
+        return new HouseBuilder();
     }
-
     public String getName() {
         return name;
     }
@@ -42,6 +19,18 @@ public class House {
 
     public String getMaterial() {
         return material;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setNumberOfWindows(Integer numberOfWindows) {
+        this.numberOfWindows = numberOfWindows;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
     }
 
     @Override

@@ -9,6 +9,7 @@
 - [Creational Design Pattern](./creational_Desing_pattern)
     - [Factory Pattern](./creational_Desing_pattern/factory)
     - [Builder Pattern](./creational_Desing_pattern/Builder)
+    - [Singleton Pattern](./creational_Desing_pattern/Singleton)
 
 - [Structural Design Pattern](./Structural_Desing_pattern)
     - [Decorator Pattern](./Structural_Desing_pattern/Decorator)
