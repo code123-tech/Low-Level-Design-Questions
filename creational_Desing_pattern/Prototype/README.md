@@ -21,3 +21,5 @@ For ex: When our client wants to create copy of an object. what client will do?
 1. The Prototype interface has one method clone();
 2. The ConcretePrototype class implements clone method, and copies field of existing object.
 3. The client call this clone method and get a new copy of the existing object.
+
+Learn more of this pattern here. [Learn More here](https://refactoring.guru/design-patterns/prototype)

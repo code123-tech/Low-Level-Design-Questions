@@ -17,7 +17,7 @@ public class Event {
     private Set<Participant> participants;
     private EventType eventType;
     private EventStatus eventStatus;
-    private Event(){ // We will let user force to use Builder mechanism to crate an instance.
+    private Event(){ // We will let user force to use Bridge mechanism to crate an instance.
         organizers = new HashSet<>();
     }
 
