@@ -9,7 +9,7 @@ For ex: When our client wants to create copy of an object. what client will do?
 - Here, Prototype pattern plays hero role, and transfers the responsibility of cloning process to the object which client is calling.
 - Prototype Pattern declares common interface for all objects, and it supports cloning.
 
-**Steps to Implement**
+**Steps to Implement the Prototype Interface**
 1. Create Prototype interface, and put a clone method in it, which will be implemented by all its hierarchy classes.
 2. Prototype class implements clone method, which is usually of one line with new keyword.
 3. Prototype class defines an alternative constructor that accepts an object of that class as an argument.
