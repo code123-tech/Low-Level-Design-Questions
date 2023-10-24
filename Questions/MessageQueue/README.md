@@ -27,7 +27,7 @@ want to publish a new Message?
 * Currently, can I assume that we are publishing string type of messages? If it is, what could be the upper limit of message size?
 * What is upper limit for number of subscriber for each topic? is this upper limit same for all the topic, or it differs topic-wise?
 
-### Possible Use cases
+0
 * creates a topic --> createTopic()
 * Publisher publishes message to topic.  --> publishToTopic()
 * Subscriber subscribes to topic.  ---> subscribeToTopic()

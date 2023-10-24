@@ -1,0 +1,6 @@
+package Questions.Notification_System.NotificationChannelClient.Impl;
+
+import Questions.Notification_System.NotificationChannelClient.MobilePushChannelClient;
+
+public class MobilePushChannelClientImpl implements MobilePushChannelClient {
+}
