@@ -26,5 +26,5 @@
   PumaShoesInventoryObservable etc.
 * <u>Observer</u>: Now, we can have NotificationAlertObserver, Now user want to notify either using email or mobile or some other strategy.
 
-<img src="./NotifyMe.png" alt="Notification System" />
+<img src="NotifyMe.png" alt="Notification System" />
 

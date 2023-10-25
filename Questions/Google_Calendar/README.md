@@ -73,4 +73,4 @@ User has power to accept/reject the event invite from others.
 
 ### Diagram
 1. Use Case Diagram
-![Image](./UseCase.png)
+![Image](UseCase.png)

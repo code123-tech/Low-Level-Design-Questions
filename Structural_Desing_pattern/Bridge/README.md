@@ -15,7 +15,7 @@
 3. Now, create concrete implementation of all required classes.
 4. Each extended child class of abstraction class should have constructor to make a connection with other hierarchy. 
 
-![Example Of Bridge Pattern](./Example.png)
+![Example Of Bridge Pattern](Example.png)
 
 **Pros**
 1. Platform Independent classes.

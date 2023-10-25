@@ -11,4 +11,4 @@
 - Abstraction Layer is AuthStrategy  --> BasicAuthStrategy, OAuthStrategy, OpenIdAuthStrategy
 - Strategy Pattern mainly shows Has-A relationship.  
 
-<img src="./StrategyPattern.png" alt="Strategy Pattern" />
+<img src="StrategyPattern.png" alt="Strategy Pattern" />

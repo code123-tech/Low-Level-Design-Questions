@@ -16,7 +16,7 @@ For ex: When our client wants to create copy of an object. what client will do?
 
 - Note:  In Java, Cloneable interface is working same as Prototype interface.
 
-![Basic Flow](./Basic_Steps.png)
+![Basic Flow](Basic_Steps.png)
 
 1. The Prototype interface has one method clone();
 2. The ConcretePrototype class implements clone method, and copies field of existing object.

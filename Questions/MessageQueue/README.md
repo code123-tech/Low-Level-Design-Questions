@@ -57,7 +57,7 @@ Basically This MessageQueue follows a very famous [Observer Design Patter](./../
 
 ### Diagram
 1. Use Case Diagram
-![Image](./UseCase.png)
+![Image](UseCase.png)
 
 
 

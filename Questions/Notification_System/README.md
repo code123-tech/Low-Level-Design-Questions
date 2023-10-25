@@ -40,13 +40,36 @@
 3. **User**: end user which is to be notified.
 
 ### Application Classes
-
+1. **enums**: Some Constants defined here Like MessageType, PriorityHandlerType.
+2. **Factory**: factory pattern to fetch type of notifier based on channel type, and take channel priority based on
+                Message Type.
+3. **NotificationChannelClient**: All client which interact with their respective external service to send notification
+    For example, slackClient will interact with Slack to send message.
+4. **Repository**: repository layer for storing user's subscribed channels, and Message templates.
+5. **Service**
+   1. **MessageTemplateService**: for creating template based on message type.
+   2. **NotificationService**: through this, user subscribes to channel, and send message/notification.
+   3. **Notifier**: Notifier is actual place which interact with each channel's respective client. Each notifier
+      has next notifier in chain if message is being sent to a user's subscribed channel list.
+      For ex: user has subscribed for 4 channels, then a chain will be created as follows
+      ```txt
+        (Kind of Chain of Respoonsibility Principle)
+      
+                    nextNotifier               nextNotifier                  nextNotifier
+        C4Notifier --------------> C3Notifier -----------------> C2Notifier -----------------> C1Notifier
+        
+        Each notifer also consist a priority handler to indicate if current message is of priority
+        message or not through this channel.
+        
+        BaseNotifier is abstract class which is implemented by each of the respective channelNotifier.
+      ```
+   4. **PriorityHandler**: These are the Priority Handlers which handles a particular priority channel.
 
 ### Diagram
 1. Use Case Diagram
 
-![Use Case](./UseCase.png)
+![Use Case](UseCase.png)
 
 2. Basic Flow Diagram
 
-![Basic Flow](./BasicFlow.png)
+![Basic Flow](BasicFlow.png)

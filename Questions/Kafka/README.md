@@ -19,7 +19,7 @@ at a time consume from one partition.
                   consume messages
 7. MessageMetaData: Mapping of Message with Partition.
 
-![Kafka Architecture](./Kafka_Architecture_Example.png)
+![Kafka Architecture](Kafka_Architecture_Example.png)
 
 #### Strategy to publish message in the partition of a Topic
 1. Round Robin Publish Message Strategy 

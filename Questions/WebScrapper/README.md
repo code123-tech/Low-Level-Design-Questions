@@ -10,7 +10,7 @@
     - Request consists request information such url, headers, params - Request
     - Response consists response information such as code, message, data.
 
-![Flow](./Flow.png)
+![Flow](Flow.png)
 
 #### Elements
 - ArrayBlockingQueue<?> to produce and consume tasks asynchronously, it's a fixed-sized array holds elements inserted by
