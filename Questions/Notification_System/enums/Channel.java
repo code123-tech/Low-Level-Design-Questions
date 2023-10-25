@@ -1,6 +1,6 @@
 package Questions.Notification_System.enums;
 
-public enum Channels {
+public enum Channel {
     EMAIL,
     FACEBOOK,
     INSTAGRAM,

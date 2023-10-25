@@ -39,6 +39,9 @@
 2. **MessageTemplate**: template of a message, messageType.
 3. **User**: end user which is to be notified.
 
+### Application Classes
+
+
 ### Diagram
 1. Use Case Diagram
 
