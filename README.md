@@ -14,7 +14,8 @@
 
 - [Structural Design Pattern](./Structural_Desing_pattern)
     - [Decorator Pattern](./Structural_Desing_pattern/Decorator)
-    - [Bridge Patter](./Structural_Desing_pattern/Bridge)
+    - [Bridge Pattern](./Structural_Desing_pattern/Bridge)
+    - [Facade Pattern](./Structural_Desing_pattern/Facade)
 
 #### SOLID Principles
 - [Single Responsibility](./SOLID_PRINCIPALS/Single_Responsibility)
