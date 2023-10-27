@@ -8,7 +8,7 @@
 - Suppose, You are a Payment Gateway, you are responsible for doing txn from any PaymentMode (UPI, Card, Wallet)
   For this, you take data from your client and pass it to bank for further process. Now your each Payment Mode
   follows the below Steps:
-  - Validation of PaymentRequest --> PaymentModeValidator.
+  - Validation of PaymentRequest --> PaymentModeValidator. --> UPIPaymentModeValidator, etc.
   - Processing
     - PreProcess: Fetch Data From DB for that user --> DBLayerInteraction.
     - Process: Make a Bank call by passing information to bank, and map client Response to our own PaymentResponse --> BankCall. 
@@ -22,7 +22,7 @@
  can be given to client.
 2. Implement this interface in facade class which redirects from client code to appropriate objects of the subsystem.
 
-[//]: # (![Example Of Bridge Pattern]&#40;Example.png&#41;)
+![Example Of Facade Pattern](Example.png)
 
 **Pros**
 1. It simplifies your complete repetition of code at each step.
