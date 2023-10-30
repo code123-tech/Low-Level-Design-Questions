@@ -18,7 +18,7 @@ code is not readable. What we can do here, we can use Adapter pattern to fulfill
 2. Create client interface and adapter class which will implement client interface.
 3. Put a reference of service class in the adapter class, so that Client uses adapter via client interface.
 
-[//]: # (![Example Of Adapter Pattern]&#40;Example.png&#41;)
+![Basic Structure Of Adapter Pattern](Structure.png)
 
 **Pros**
 1. No change in actual code.

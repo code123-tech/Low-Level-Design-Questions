@@ -1,11 +1,10 @@
 package Structural_Desing_pattern.Adapter.Impl;
 
-import Structural_Desing_pattern.Adapter.IAdaptee;
-import Structural_Desing_pattern.Adapter.IAdapter;
+import Structural_Desing_pattern.Adapter.Interfaces.IAdapter;
 
 public class Adapter implements IAdapter {
-    IAdaptee adaptee;
-    public Adapter(IAdaptee adaptee){
+    ThirdPartyService adaptee;
+    public Adapter(ThirdPartyService adaptee){
         this.adaptee = adaptee;
     }
 
