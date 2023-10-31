@@ -7,7 +7,7 @@ Interface IShape has four methods => drawCircle(), drawSquare(), drawOval() etc.
 Now, Circle class implements above interface, which only want to implement drawCircle(), but need to implement two extra methods
 drawSquare, and drawOval.
 Similarly, goes for Square class, and Oval class.
-Problem is, if suppose we introduced an another method, drawTriangle(). Now client need to implement this method also in each
+Problem is, if suppose we introduced a method, drawTriangle(). Now client need to implement this method also in each
 of class where the IShape interface is implemented.
 
 

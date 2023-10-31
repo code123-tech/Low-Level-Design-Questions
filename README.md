@@ -47,5 +47,6 @@
 
 * For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
 * For Understanding [Basic Java, and OOPs concepts](https://github.com/code123-tech/Basics_Java_With_OOP_Concepts) 
+* SOLID: [Principles And Patterns by Robert C. Martin](https://web.archive.org/web/20150906155800/http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf)
 
 
