@@ -16,3 +16,11 @@ FileSaveMode interface has method save which accepts content
 now, DBMode and FileMode implements  this FileSaveMode interface.
 
 now easily, if any new mode comes, we need to make any change in FileSave class.
+
+### Pros of Using the Dependency Inversion Principle
+- Reduces coupling among High Level and Low Level modules.
+- The code is easy to reuse, maintain and test. High-level modules depend on abstractions and interfaces, making it 
+  easier to substitute different implementations of low-level components.
+
+### Cons of Using the Dependency Inversion Principle
+- Understanding and applying DIP can be challenging, and a little complex.

@@ -18,3 +18,11 @@ ISquareShape
 IOvalShape
 ITriangleShape
 now each will be implemented by its own respective class.
+
+### Pros of Using the Interface Segregation Principle
+- Using this principle, the code structure becomes modular where behavior/operations are categorized with the help of an 
+  interface and further implemented by their own classes.
+- It reduces coupling as a client does need not implement unwanted methods in the implementation classes.
+
+### Cons of Using the Interface Segregation Principle
+- Strict following of this principle can lead to a large number of small interfaces that are more complex to maintain.

@@ -40,7 +40,12 @@ now we can't do like list.getFlyingSpeed() for cow, as this method does not belo
 FlyingAnimal class and cow does not belong to FlyingAnimal class anymore.
 
 
+### Pros of Using the Liskov Substitution Principle
+- This principle helps to create a better structure of classes (When inheritance among classes is happening) and puts 
+  only needed methods in a class that are suitable for that subsystem if the class is the root class of that subsystem.
 
+### Cons of Using the Liskov Substitution Principle
+- Sometimes this principle can lead to a complex hierarchy of classes, which may increase the complexity of code.
 
 
 

@@ -17,7 +17,8 @@
     - [Bridge Pattern](./Structural_Desing_pattern/Bridge)
     - [Facade Pattern](./Structural_Desing_pattern/Facade)
 
-#### SOLID Principles
+#### SOLID Principles  
+[Article of SOLID Principle](https://swapnilagarwal2001.medium.com/solid-principles-understanding-1ae5b4fc1efa) 
 - [Single Responsibility](./SOLID_PRINCIPALS/Single_Responsibility)
 - [Open Closed](./SOLID_PRINCIPALS/Open_Closed)
 - [Liskov Substitution](./SOLID_PRINCIPALS/Liskov_Substitution)

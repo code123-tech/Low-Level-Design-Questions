@@ -11,3 +11,11 @@ Open Closed Principle as well as Single Responsibility.
 
 For getting rid of above issue, we can create an interface which has makePayment method, and each paymentMode has its own
 class which implements this interface.
+
+
+### Pros of Using the Open-Closed Principle
+- As per the principle, no modification should happen in existing code, so it leads to fewer bugs/errors in existing code.
+- Code becomes more extendable for future purposes.
+
+### Cons of Using the Open-Closed Principle
+- This principle comes with the introduction of an Abstraction Layer which becomes a little tough at the beginner level.
