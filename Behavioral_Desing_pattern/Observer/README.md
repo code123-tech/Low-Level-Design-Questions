@@ -1,6 +1,7 @@
-# Here we are dealing with Observer Design Pattern.
-
-## Observer Pattern Basically consist of two main things, Observable(Subject: the thing which is being observed), Observer(people who observe subject.)
+# Observer Design Pattern.
+Observer Pattern Basically consist of two main things, 
+  - Observable(Subject: the thing which is being observed), 
+  - Observer(people who observe subject.)
 
 ## Observer Pattern: Advantages and Disadvantages
 - The code is more maintainable because it is less coupled between the observable classes and their dependencies (the observers).

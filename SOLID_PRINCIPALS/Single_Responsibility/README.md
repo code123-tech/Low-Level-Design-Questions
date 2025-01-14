@@ -19,5 +19,6 @@ Thus, we can follow Single responsibility principle.
 - Creating a class for each of the responsibilities can lead creation of a lot of small classes in the project. 
   If the project is large, it becomes a headache to manage all the classes with their test code.
 
-https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
-https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688
+### Reference
+- https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
+- https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688
