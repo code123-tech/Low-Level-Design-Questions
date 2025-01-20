@@ -1,19 +1,17 @@
-package Questions.ParkingLot.core;
-
-import Questions.ParkingLot.core.Model.Vehicle;
-import Questions.ParkingLot.core.SlotsType.ParkingSlotType;
-import Questions.ParkingLot.core.factory.ParkingSlotTypeFactory;
-import Questions.ParkingLot.enums.ParkingSlotStatus;
-import Questions.ParkingLot.enums.VehicleCategory;
+package Questions.ParkingLots.ParkingLot1.core;
 
 import java.util.Map;
 
+import Questions.ParkingLots.ParkingLot1.core.Model.Vehicle;
+import Questions.ParkingLots.ParkingLot1.core.SlotsType.ParkingSlotType;
+import Questions.ParkingLots.ParkingLot1.core.factory.ParkingSlotTypeFactory;
+import Questions.ParkingLots.ParkingLot1.enums.ParkingSlotStatus;
+import Questions.ParkingLots.ParkingLot1.enums.VehicleCategory;
+
 public class ParkingFloor {
-    private String floorName;
     private Map<ParkingSlotType, Map<String, ParkingSlot>> parkingSlots;
 
-    public ParkingFloor(String floorName, Map<ParkingSlotType, Map<String, ParkingSlot>> parkingSlots){
-        this.floorName = floorName;
+    public ParkingFloor(Map<ParkingSlotType, Map<String, ParkingSlot>> parkingSlots){
         this.parkingSlots = parkingSlots;
     }
 

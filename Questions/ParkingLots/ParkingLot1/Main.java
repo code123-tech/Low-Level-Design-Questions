@@ -1,19 +1,19 @@
-package Questions.ParkingLot;
-
-import Questions.ParkingLot.core.Model.Address;
-import Questions.ParkingLot.core.Model.Ticket;
-import Questions.ParkingLot.core.Model.Vehicle;
-import Questions.ParkingLot.core.ParkingFloor;
-import Questions.ParkingLot.core.ParkingLot;
-import Questions.ParkingLot.core.ParkingSlot;
-import Questions.ParkingLot.core.SlotsType.ParkingSlotType;
-import Questions.ParkingLot.core.factory.ParkingSlotTypeFactory;
-import Questions.ParkingLot.enums.VehicleCategory;
+package Questions.ParkingLots.ParkingLot1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import Questions.ParkingLots.ParkingLot1.core.ParkingFloor;
+import Questions.ParkingLots.ParkingLot1.core.ParkingLot;
+import Questions.ParkingLots.ParkingLot1.core.ParkingSlot;
+import Questions.ParkingLots.ParkingLot1.core.Model.Address;
+import Questions.ParkingLots.ParkingLot1.core.Model.Ticket;
+import Questions.ParkingLots.ParkingLot1.core.Model.Vehicle;
+import Questions.ParkingLots.ParkingLot1.core.SlotsType.ParkingSlotType;
+import Questions.ParkingLots.ParkingLot1.core.factory.ParkingSlotTypeFactory;
+import Questions.ParkingLots.ParkingLot1.enums.VehicleCategory;
 
 public class Main {
     private static ParkingLot parkingLot;
@@ -25,7 +25,6 @@ public class Main {
         parkingLot = ParkingLot.getInstance(parkingLotName, parkingLotAddress, parkingFloors);
 
         // ParkingFloor1
-        String parkingFloor1Name = "Floor-1";
         Map<ParkingSlotType, Map<String, ParkingSlot>> allSlots = new HashMap<>();
 
         // Two wheeler Slots
@@ -60,7 +59,7 @@ public class Main {
         largeSlots.put("L-3", new ParkingSlot("PS-3", largeParkingSlotType));
         allSlots.put(largeParkingSlotType, largeSlots);
 
-        parkingLot.addFloors(parkingFloor1Name, allSlots);
+        parkingLot.addFloors(allSlots);
 
     }
 
@@ -104,7 +103,7 @@ public class Main {
         if(ticket3 == null){
             System.out.println("Sorry, Parking is full..");
         }else{
-            System.out.println("Ticket Number for vehicle3: " + vehicle3.getVehicleNumber() + " is: " + ticket2.getTicketNumber());
+            System.out.println("Ticket Number for vehicle3: " + vehicle3.getVehicleNumber() + " is: " + ticket3.getTicketNumber());
 
             Thread.sleep(1000);
             Double price = parkingLot.scanAndPay(ticket3);

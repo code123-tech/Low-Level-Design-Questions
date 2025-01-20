@@ -1,13 +1,13 @@
-package Questions.ParkingLot.core;
-
-import Questions.ParkingLot.core.Model.Address;
-import Questions.ParkingLot.core.Model.Ticket;
-import Questions.ParkingLot.core.Model.Vehicle;
-import Questions.ParkingLot.core.SlotsType.ParkingSlotType;
-import Questions.ParkingLot.enums.TicketStatus;
+package Questions.ParkingLots.ParkingLot1.core;
 
 import java.util.List;
 import java.util.Map;
+
+import Questions.ParkingLots.ParkingLot1.core.Model.Address;
+import Questions.ParkingLots.ParkingLot1.core.Model.Ticket;
+import Questions.ParkingLots.ParkingLot1.core.Model.Vehicle;
+import Questions.ParkingLots.ParkingLot1.core.SlotsType.ParkingSlotType;
+import Questions.ParkingLots.ParkingLot1.enums.TicketStatus;
 
 public class ParkingLot {
     private String nameOfParkingLot;
@@ -30,8 +30,8 @@ public class ParkingLot {
         return parkingLot;
     }
 
-    public void addFloors(String floorName, Map<ParkingSlotType, Map<String, ParkingSlot>> slots){
-        ParkingFloor parkingFloor = new ParkingFloor(floorName, slots);
+    public void addFloors(Map<ParkingSlotType, Map<String, ParkingSlot>> slots){
+        ParkingFloor parkingFloor = new ParkingFloor(slots);
         this.parkingFloors.add(parkingFloor);
     }
 

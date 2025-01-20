@@ -1,13 +1,13 @@
-package Questions.ParkingLot.core.factory;
+package Questions.ParkingLots.ParkingLot1.core.factory;
 
-import Questions.ParkingLot.core.SlotsType.*;
-import Questions.ParkingLot.enums.VehicleCategory;
+import Questions.ParkingLots.ParkingLot1.core.SlotsType.*;
+import Questions.ParkingLots.ParkingLot1.enums.VehicleCategory;
 
 public class ParkingSlotTypeFactory {
-    private static ParkingSlotType twoWheelerParkingSlotType = new TwoWheelerParkingSlotType();
-    private static ParkingSlotType compactParkingSlotType = new CompactParkingSlotType();
-    private static ParkingSlotType mediumParkingSlotType = new MediumParkingSlotType();
-    private static ParkingSlotType largeParkingSlotType = new LargeParkingSlotType();
+    private static final ParkingSlotType twoWheelerParkingSlotType = new TwoWheelerParkingSlotType();
+    private static final ParkingSlotType compactParkingSlotType = new CompactParkingSlotType();
+    private static final ParkingSlotType mediumParkingSlotType = new MediumParkingSlotType();
+    private static final ParkingSlotType largeParkingSlotType = new LargeParkingSlotType();
 
     public static ParkingSlotType getParkingSlotType(VehicleCategory vehicleCategory){
         switch (vehicleCategory){

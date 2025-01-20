@@ -1,6 +1,6 @@
-package Questions.ParkingLot.core.Model;
+package Questions.ParkingLots.ParkingLot1.core.Model;
 
-import Questions.ParkingLot.enums.VehicleCategory;
+import Questions.ParkingLots.ParkingLot1.enums.VehicleCategory;
 
 public class Vehicle {
     private String vehicleNumber;

@@ -1,7 +1,7 @@
-package Questions.ParkingLot.core.Model;
+package Questions.ParkingLots.ParkingLot1.core.Model;
 
-import Questions.ParkingLot.core.ParkingSlot;
-import Questions.ParkingLot.enums.TicketStatus;
+import Questions.ParkingLots.ParkingLot1.core.ParkingSlot;
+import Questions.ParkingLots.ParkingLot1.enums.TicketStatus;
 
 public class Ticket {
     private String ticketNumber;

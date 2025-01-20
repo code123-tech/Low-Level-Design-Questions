@@ -1,8 +1,8 @@
-package Questions.ParkingLot.core;
+package Questions.ParkingLots.ParkingLot1.core;
 
-import Questions.ParkingLot.core.Model.Vehicle;
-import Questions.ParkingLot.core.SlotsType.ParkingSlotType;
-import Questions.ParkingLot.enums.ParkingSlotStatus;
+import Questions.ParkingLots.ParkingLot1.core.Model.Vehicle;
+import Questions.ParkingLots.ParkingLot1.core.SlotsType.ParkingSlotType;
+import Questions.ParkingLots.ParkingLot1.enums.ParkingSlotStatus;
 
 
 public class ParkingSlot {

@@ -1,4 +1,4 @@
-package Questions.ParkingLot.core.SlotsType;
+package Questions.ParkingLots.ParkingLot1.core.SlotsType;
 
 public class LargeParkingSlotType implements ParkingSlotType{
     private final Double LARGE_SLOT_CHARGE_PER_HOUR = 0.1;

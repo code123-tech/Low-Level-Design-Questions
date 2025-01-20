@@ -1,4 +1,4 @@
-package Questions.ParkingLot.core.SlotsType;
+package Questions.ParkingLots.ParkingLot1.core.SlotsType;
 
 public class MediumParkingSlotType implements ParkingSlotType{
     private final Double MEDIUM_SLOT_CHARGE_PER_HOUR = 0.75;

@@ -1,4 +1,4 @@
-package Questions.ParkingLot.core.Model;
+package Questions.ParkingLots.ParkingLot1.core.Model;
 
 public class Address {
     String street;

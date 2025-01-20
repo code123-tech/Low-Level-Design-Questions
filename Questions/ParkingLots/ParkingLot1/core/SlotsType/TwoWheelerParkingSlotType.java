@@ -1,4 +1,4 @@
-package Questions.ParkingLot.core.SlotsType;
+package Questions.ParkingLots.ParkingLot1.core.SlotsType;
 
 public class TwoWheelerParkingSlotType implements ParkingSlotType{
 
