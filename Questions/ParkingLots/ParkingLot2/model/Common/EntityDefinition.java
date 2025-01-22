@@ -8,10 +8,10 @@ public class EntityDefinition {
     private Date createdAt;
     private Date updatedAt;
 
-    public EntityDefinition(String id, Date createdAt, Date updatedAt) {
+    public EntityDefinition(String id) {
         this.id = id;
-        this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
+        this.createdAt = new Date();
+        this.updatedAt = new Date();
     }
 
     public String getId() {

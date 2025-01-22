@@ -41,8 +41,7 @@ Parking Lot is a system where we can park our vehicles and get them out when we 
 
 4. PaymentRelated
     1. Payment
-    2. PaymentPortal
-    3. CostCalculation
+    2. CostCalculation
         1. HourlyBasedCalculation
 
 5. Vehicle
