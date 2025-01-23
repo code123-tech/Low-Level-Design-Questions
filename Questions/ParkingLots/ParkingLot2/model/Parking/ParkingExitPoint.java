@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 import Questions.ParkingLots.ParkingLot2.model.Common.EntityDefinition;
+import Questions.ParkingLots.ParkingLot2.model.Parking.spots.ParkingSpot;
 import Questions.ParkingLots.ParkingLot2.model.Payment.costCalculation.HourlyBasedCalculation;
 import Questions.ParkingLots.ParkingLot2.model.enums.ParkingSpotType;
 
@@ -15,10 +16,12 @@ public class ParkingExitPoint extends EntityDefinition{
 
     public ParkingTicket scanAndExitParkingTicket(ParkingTicket parkingTicket) {
 
-        // 1. vacate parking spot from Parking Lot
-        
-        // 2. set charges on parking ticket
-        parkingTicket.setTotalCost(calculateCharge(parkingTicket, ParkingSpotType.TWO_WHEELER));
+        ParkingSpot parkingSpot = ParkingLot.INSTANCE.unParkVehicle(parkingTicket.getAllocatedParkingSpotId());
+        if(parkingSpot == null){
+            return null;
+        }
+
+        parkingTicket.setTotalCost(calculateCharge(parkingTicket, parkingSpot.getParkingSpotType()));
         return parkingTicket;
     }
 
