@@ -3,6 +3,7 @@ package Questions.SnakeAndLadder;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Board {
+    
     public Cell[][] cells;
 
     Board(int boardSize, int numberOfSnakes, int numberOfLadders){

@@ -2,8 +2,6 @@ package Questions.TicTaeToe.Models;
 
 import Questions.TicTaeToe.enums.PlayingMarkType;
 
-import java.util.List;
-
 public class Board {
     private PlayingMarkType[][] board;
     private int size;

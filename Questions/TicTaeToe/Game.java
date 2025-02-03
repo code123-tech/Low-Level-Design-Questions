@@ -15,7 +15,6 @@ public class Game {
     public Game(){
         int size = 3;
         board = new Board(size);
-        int numberOfPlayers = 2;
         players.add(new Player("P1", PlayingMarkType.O));
         players.add(new Player("P2", PlayingMarkType.X));
     }

@@ -39,7 +39,7 @@
 - [Blocking Queue](./Questions/BlockingQueue)
 - [Connection Pool](./Questions/ConnectionPool)
 - [Snake And Ladder](./Questions/SnakeAndLadder)
-- [Parking Lot](./Questions/ParkingLot)
+- [Parking Lot 1](./Questions/ParkingLots/ParkingLot1/) | [Parking Lot 2](./Questions/ParkingLots/ParkingLot2/)
 - [Scheduled Thread Pool](./Questions/Scheduled_ThreadPool)
 - [Uber Driver Dispatcher](./Questions/Uber_Driver_Dispatcher)
 - [Chat App](./Questions/Chat_App)

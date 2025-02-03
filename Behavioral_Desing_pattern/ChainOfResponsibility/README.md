@@ -1,4 +1,4 @@
-- It's one of the useful Behavioural Design Pattern.
+- It is one of the useful Behavioural Design Pattern.
 - It is based on Chain of Objects, means objects are present in form of chain. It's like linked list, where a node has current
     element, and next element. If current Chain object does not fulfill the request, process goes for next object in the chain.
 - This pattern becomes useful when a process needs to go from a chain of operations until and unless an operation fulfills the 
