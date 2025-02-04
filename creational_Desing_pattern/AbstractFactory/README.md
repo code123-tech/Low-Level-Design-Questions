@@ -1,0 +1,1 @@
+<img src="./AbstractFactory.png" alt="Abstract Factory Design Pattern" />
