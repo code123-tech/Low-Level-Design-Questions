@@ -1,7 +1,5 @@
 package Questions.CustomHashmap;
 
-import java.util.HashMap;
-
 public class Main {
     public static void main(String[] args) {
         CustomHashMap<Integer, String> customHashMap = new CustomHashMap<>(45);

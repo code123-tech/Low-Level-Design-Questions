@@ -86,7 +86,4 @@ public class CustomHashMap<K, V>{
         }
         return null;
     }
-    private Integer hashing(K key){
-        return key.hashCode()%hashtable.length;
-    }
 }

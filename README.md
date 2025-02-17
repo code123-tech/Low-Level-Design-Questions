@@ -17,6 +17,7 @@
     - [Decorator Pattern](./Structural_Desing_pattern/Decorator)
     - [Bridge Pattern](./Structural_Desing_pattern/Bridge)
     - [Facade Pattern](./Structural_Desing_pattern/Facade)
+    - [Proxy Pattern](./Structural_Desing_pattern/Proxy)
 
 #### SOLID Principles  
 [Article of SOLID Principle](https://swapnilagarwal2001.medium.com/solid-principles-understanding-1ae5b4fc1efa) 
