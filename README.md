@@ -1,24 +1,14 @@
 ## Basic Low Level Design problem's Solution, and Design Patterns
 
 #### Design Patterns
-- [Behavioural Design Pattern](./Behavioral_Desing_pattern)
-    - [Chain Of Responsibility](./Behavioral_Desing_pattern/ChainOfResponsibility)
-    - [Observer](./Behavioral_Desing_pattern/Observer)
-    - [Strategy](./Behavioral_Desing_pattern/Strategy)
-    - [Null Object Pattern](./Behavioral_Desing_pattern/NullObjectPattern)
-  
-- [Creational Design Pattern](./creational_Desing_pattern)
-    - [Factory Pattern](./creational_Desing_pattern/factory)
-    - [Builder Pattern](./creational_Desing_pattern/Builder)
-    - [Singleton Pattern](./creational_Desing_pattern/Singleton)
-    - [Prototype Pattern](./creational_Desing_pattern/Prototype)
-    - [Abstract Factory Pattern](./creational_Desing_pattern/AbstractFactory)
 
-- [Structural Design Pattern](./Structural_Desing_pattern)
-    - [Decorator Pattern](./Structural_Desing_pattern/Decorator)
-    - [Bridge Pattern](./Structural_Desing_pattern/Bridge)
-    - [Facade Pattern](./Structural_Desing_pattern/Facade)
-    - [Proxy Pattern](./Structural_Desing_pattern/Proxy)
+ | [Behavioural Design Pattern](./Behavioral_Desing_pattern) | [Creational Design Pattern](./creational_Desing_pattern) | [Structural Design Pattern](./Structural_Desing_pattern) |
+ | --- | --- | --- |
+ | [Chain Of Responsibility](./Behavioral_Desing_pattern/ChainOfResponsibility) | [Factory Pattern](./creational_Desing_pattern/factory) | [Decorator Pattern](./Structural_Desing_pattern/Decorator) |
+ | [Observer](./Behavioral_Desing_pattern/Observer) | [Builder Pattern](./creational_Desing_pattern/Builder) | [Bridge Pattern](./Structural_Desing_pattern/Bridge) |
+ | [Strategy](./Behavioral_Desing_pattern/Strategy) | [Singleton Pattern](./creational_Desing_pattern/Singleton) | [Facade Pattern](./Structural_Desing_pattern/Facade) |
+ | [Null Object Pattern](./Behavioral_Desing_pattern/NullObjectPattern) | [Prototype Pattern](./creational_Desing_pattern/Prototype) | [Proxy Pattern](./Structural_Desing_pattern/Proxy) |
+ |  | [Abstract Factory Pattern](./creational_Desing_pattern/AbstractFactory) |  |
 
 #### SOLID Principles  
 [Article of SOLID Principle](https://swapnilagarwal2001.medium.com/solid-principles-understanding-1ae5b4fc1efa) 
