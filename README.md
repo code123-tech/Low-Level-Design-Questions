@@ -2,7 +2,7 @@
 
 #### Design Patterns
 
- | [Behavioural Design Pattern](./Behavioral_Desing_pattern) | [Creational Design Pattern](./creational_Desing_pattern) | [Structural Design Pattern](./Structural_Desing_pattern) |
+ | Behavioural Design Pattern | Creational Design Pattern | Structural Design Pattern |
  | --- | --- | --- |
  | [Chain Of Responsibility](./Behavioral_Desing_pattern/ChainOfResponsibility) | [Factory Pattern](./creational_Desing_pattern/factory) | [Decorator Pattern](./Structural_Desing_pattern/Decorator) |
  | [Observer](./Behavioral_Desing_pattern/Observer) | [Builder Pattern](./creational_Desing_pattern/Builder) | [Bridge Pattern](./Structural_Desing_pattern/Bridge) |
