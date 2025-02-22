@@ -33,25 +33,25 @@
 
   | Question | Status |
   | --- | --- |
-  | [Custom Hashmap](./Questions/CustomHashmap) |  <input type="checkbox" checked> |
-  | [Tic and Toe](./Questions/TicTaeToe) |  <input type="checkbox" checked> |
-  | [Vehicle Rental System](./Questions/VehicleRentalSystem) | <input type="checkbox" checked> |
-  | [Web Scrapper](./Questions/WebScrapper) | <input type="checkbox" checked> |
-  | [Kafka Low Level](./Questions/Kafka) | <input type="checkbox" checked> |
-  | [Messaging Queue](./Questions/MessageQueue) | <input type="checkbox" checked> |
-  | [Google Calendar](./Questions/Google_Calendar) | <input type="checkbox" checked> |
-  | [BookMyShow](./Questions/BookMy_Show/) | <input type="checkbox" unchecked> |
-  | [MultiThreaded Logger](./Questions/MultiThreadedLogger) | <input type="checkbox" checked> |
-  | [Blocking Queue](./Questions/BlockingQueue) | <input type="checkbox" unchecked> |
-  | [Connection Pool](./Questions/ConnectionPool) | <input type="checkbox" unchecked> |
-  | [Snake And Ladder](./Questions/SnakeAndLadder) | <input type="checkbox" checked> |
-  | [Parking Lot 1](./Questions/ParkingLots/ParkingLot1/), [Parking Lot 2](./Questions/ParkingLots/ParkingLot2/) | <input type="checkbox" checked> |
-  | [Scheduled Thread Pool](./Questions/Scheduled_ThreadPool) | <input type="checkbox" unchecked> |
-  | [Uber Driver Dispatcher](./Questions/Uber_Driver_Dispatcher) | <input type="checkbox" unchecked> |
-  | [Chat App](./Questions/Chat_App) | <input type="checkbox" unchecked> |
-  | [Online Judge like Leetcode/Hackerrank](./Questions/Online_Judge) | <input type="checkbox" unchecked> |
-  | [Elevator System](./Questions/ElevatorSystem/) | <input type="checkbox" checked> |
-  | [Vending Machine](./Questions/VendingMachine/) | <input type="checkbox" unchecked> |
+  | [Custom Hashmap](./Questions/CustomHashmap) |  :ballot_box_with_check: |
+  | [Tic and Toe](./Questions/TicTaeToe) |  :ballot_box_with_check: |
+  | [Vehicle Rental System](./Questions/VehicleRentalSystem) | :ballot_box_with_check: |
+  | [Web Scrapper](./Questions/WebScrapper) | :ballot_box_with_check: |
+  | [Kafka Low Level](./Questions/Kafka) | :ballot_box_with_check: |
+  | [Messaging Queue](./Questions/MessageQueue) | :ballot_box_with_check: |
+  | [Google Calendar](./Questions/Google_Calendar) | :ballot_box_with_check: |
+  | [BookMyShow](./Questions/BookMy_Show/) | &#9744; |
+  | [MultiThreaded Logger](./Questions/MultiThreadedLogger) | :ballot_box_with_check: |
+  | [Blocking Queue](./Questions/BlockingQueue) | &#9744; |
+  | [Connection Pool](./Questions/ConnectionPool) | &#9744; |
+  | [Snake And Ladder](./Questions/SnakeAndLadder) | :ballot_box_with_check: |
+  | [Parking Lot 1](./Questions/ParkingLots/ParkingLot1/), [Parking Lot 2](./Questions/ParkingLots/ParkingLot2/) | :ballot_box_with_check: |
+  | [Scheduled Thread Pool](./Questions/Scheduled_ThreadPool) | &#9744; |
+  | [Uber Driver Dispatcher](./Questions/Uber_Driver_Dispatcher) | &#9744; |
+  | [Chat App](./Questions/Chat_App) | &#9744; |
+  | [Online Judge like Leetcode/Hackerrank](./Questions/Online_Judge) | &#9744; |
+  | [Elevator System](./Questions/ElevatorSystem/) | :ballot_box_with_check: |
+  | [Vending Machine](./Questions/VendingMachine/) | &#9744; |
 
 #### References
 - For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
