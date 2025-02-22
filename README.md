@@ -23,25 +23,25 @@
 
   | Question | Status |
   | --- | --- |
-  | [Custom Hashmap](./Questions/CustomHashmap) |  :ballot_box_with_check: |
-  | [Tic and Toe](./Questions/TicTaeToe) |  :ballot_box_with_check: |
-  | [Vehicle Rental System](./Questions/VehicleRentalSystem) | :ballot_box_with_check: |
-  | [Web Scrapper](./Questions/WebScrapper) | :ballot_box_with_check: |
-  | [Kafka Low Level](./Questions/Kafka) | :ballot_box_with_check: |
-  | [Messaging Queue](./Questions/MessageQueue) | :ballot_box_with_check: |
-  | [Google Calendar](./Questions/Google_Calendar) | :ballot_box_with_check: |
+  | [Custom Hashmap](./Questions/CustomHashmap) |  :white_check_mark: |
+  | [Tic and Toe](./Questions/TicTaeToe) |  :white_check_mark: |
+  | [Vehicle Rental System](./Questions/VehicleRentalSystem) | :white_check_mark: |
+  | [Web Scrapper](./Questions/WebScrapper) | :white_check_mark: |
+  | [Kafka Low Level](./Questions/Kafka) | :white_check_mark: |
+  | [Messaging Queue](./Questions/MessageQueue) | :white_check_mark: |
+  | [Google Calendar](./Questions/Google_Calendar) | :white_check_mark: |
   | [BookMyShow](./Questions/BookMy_Show/) | &#9744; |
-  | [MultiThreaded Logger](./Questions/MultiThreadedLogger) | :ballot_box_with_check: |
+  | [MultiThreaded Logger](./Questions/MultiThreadedLogger) | :white_check_mark: |
   | [Blocking Queue](./Questions/BlockingQueue) | &#9744; |
   | [Connection Pool](./Questions/ConnectionPool) | &#9744; |
-  | [Snake And Ladder](./Questions/SnakeAndLadder) | :ballot_box_with_check: |
-  | [Parking Lot 1](./Questions/ParkingLots/ParkingLot1/), [Parking Lot 2](./Questions/ParkingLots/ParkingLot2/) | :ballot_box_with_check: |
+  | [Snake And Ladder](./Questions/SnakeAndLadder) | :white_check_mark: |
+  | [Parking Lot 1](./Questions/ParkingLots/ParkingLot1/), [Parking Lot 2](./Questions/ParkingLots/ParkingLot2/) | :white_check_mark: |
   | [Scheduled Thread Pool](./Questions/Scheduled_ThreadPool) | &#9744; |
   | [Uber Driver Dispatcher](./Questions/Uber_Driver_Dispatcher) | &#9744; |
   | [Chat App](./Questions/Chat_App) | &#9744; |
   | [Online Judge like Leetcode/Hackerrank](./Questions/Online_Judge) | &#9744; |
-  | [Elevator System](./Questions/ElevatorSystem/) | :ballot_box_with_check: |
-  | [Vending Machine](./Questions/VendingMachine/) | &#9744; |
+  | [Elevator System](./Questions/ElevatorSystem/) | :white_check_mark: |
+  | [Vending Machine](./Questions/VendingMachine/) | :construction: |
 
 #### References
 - For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
