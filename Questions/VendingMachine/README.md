@@ -12,9 +12,23 @@ Now, Let's go through some requirements of Vending Machine system
 * Can their by any other Payment method other than cash?
 
 ### Models/Entities
-* 
+* VendingMachine
+* Coin 
+* Inventory
+* ItemShelf
+* Item 
+* ItemType
+* State
+    * IdleState
+    * HashMoneyState
+    * SelectionState
+    * DispenseState
 
 ### Diagram
 1. Basic State Flow Diagram
 
 ![Basic Flow](./VendingMachineSystemStateFlow.png)
+
+2. UML Diagram
+
+![UML Diagram](./VendingMachineUML.png)
