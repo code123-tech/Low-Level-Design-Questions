@@ -38,3 +38,7 @@ Now, Let's go through some requirements of ATM Machine
 
 ![Basic Flow](./ATM_MachineStateFlow.png)
 
+2. UML Diagram
+
+![UML Diagram](./ATM_MachineUMLDiagram.png)
+
