@@ -42,7 +42,7 @@
   | [Online Judge like Leetcode/Hackerrank](./Questions/Online_Judge) | &#9744; |
   | [Elevator System](./Questions/ElevatorSystem/) | :white_check_mark: |
   | [Vending Machine](./Questions/VendingMachine/) | :white_check_mark: |
-  | [ATM Machine](./Questions/ATM_Machine/) | :construction: |
+  | [ATM Machine](./Questions/ATM_Machine/) | :white_check_mark: |
 
 #### References
 - For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
