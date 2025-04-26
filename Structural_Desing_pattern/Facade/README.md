@@ -28,7 +28,7 @@
 1. It simplifies your complete repetition of code at each step.
 2. It enhances code readability by dividing process into multiple steps.
 3. It reduces Error occurrence chances.
-4. If your subsystem gets changed to new version, you only need to make change in your facade, client need to change
+4. If your subsystem gets changed to new version, you only need to make change in your facade, client need not to change
     their code as they are interacting with facade.
 
 **Cons**

@@ -44,7 +44,7 @@
   | [Vending Machine](./Questions/VendingMachine/) | :white_check_mark: |
   | [ATM Machine](./Questions/ATM_Machine/) | :white_check_mark: |
   | [SplitWise](./Questions/SplitWise/) | :white_check_mark: |
-  | [CrickBuzz](./Questions/CircBuzz/) | :construction: |
+  | [CrickBuzz](./Questions/CircBuzz/) | :white_check_mark: |
 
 #### References
 - For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
