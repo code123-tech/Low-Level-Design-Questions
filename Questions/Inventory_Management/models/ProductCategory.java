@@ -5,10 +5,10 @@ import java.util.Deque;
 
 public class ProductCategory {
 
-    int productCategoryId;
-    String categoryName;
-    Deque<Product> products = new ArrayDeque<>();
-    double price;
+    public int productCategoryId;
+    public String categoryName;
+    public Deque<Product> products = new ArrayDeque<>();
+    public double price;
 
     public void addProduct(Product product){
         products.add(product);

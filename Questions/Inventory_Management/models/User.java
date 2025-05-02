@@ -6,10 +6,10 @@ import java.util.List;
 public class User {
 
     public int userId;
-    String userName;
+    public String userName;
     public Address address;
-    Cart userCartDetails;
-    List<Integer> orderIds;
+    public Cart userCartDetails;
+    public List<Integer> orderIds;
 
     public User(){
         userCartDetails = new Cart();

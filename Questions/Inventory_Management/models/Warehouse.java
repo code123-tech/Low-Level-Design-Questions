@@ -4,8 +4,8 @@ import java.util.Map;
 
 public class Warehouse {
 
-    Inventory inventory;
-    Address address;
+    public Inventory inventory;
+    public Address address;
 
     public void removeItems(Map<Integer, Integer> count){
 

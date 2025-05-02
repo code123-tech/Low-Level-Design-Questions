@@ -6,9 +6,9 @@ import java.util.Map;
 
 public class Inventory {
 
-    List<ProductCategory> productCategoryList;
+    public List<ProductCategory> productCategoryList;
 
-    Inventory(){
+    public Inventory(){
         productCategoryList = new ArrayList<>();
     }
 

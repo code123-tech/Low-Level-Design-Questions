@@ -2,6 +2,6 @@ package models;
 
 public class Product {
 
-    int productId;
-    String productName;
+    public int productId;
+    public String productName;
 }
