@@ -46,6 +46,7 @@
   | [SplitWise](./Questions/SplitWise/) | :white_check_mark: |
   | [CrickBuzz](./Questions/CircBuzz/) | :white_check_mark: |
   | [Inventory Management](./Questions/Inventory_Management/) | :white_check_mark: |
+  | [Word Processor](./Questions/Word_Processor/) | :construction: |
 
 #### References
 - For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
