@@ -38,11 +38,10 @@ What happens when a new expense is added?
     - amountPaid
     - description
     - paidBy
-    - splitType
+    - splitType (Equally, Unequally, Percentage)
     - splitDetails: 
         - user
         - amount
-    - Split type (Equally, Unequally, Percentage)
     - groupId
 
 - Firstly, If groupId given, validate: 
