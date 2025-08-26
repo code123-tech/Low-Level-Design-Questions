@@ -1,4 +1,4 @@
-package Structural_Desing_pattern.Adapter.Interfaces;
+package Adapter.Interfaces;
 
 public interface IAdapter {
     void request();

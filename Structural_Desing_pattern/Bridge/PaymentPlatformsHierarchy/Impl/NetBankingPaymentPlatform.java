@@ -1,7 +1,7 @@
-package Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy.Impl;
+package Bridge.PaymentPlatformsHierarchy.Impl;
 
-import Structural_Desing_pattern.Bridge.BankHierarchy.Bank;
-import Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy.PaymentPlatform;
+import Bridge.BankHierarchy.Bank;
+import Bridge.PaymentPlatformsHierarchy.PaymentPlatform;
 
 public class NetBankingPaymentPlatform extends PaymentPlatform {
     private Long amount;

@@ -1,10 +1,10 @@
-package Structural_Desing_pattern.Proxy.ProxyClasses;
+package Proxy.ProxyClasses;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import Structural_Desing_pattern.Proxy.interfaces.VideoLibrary;
+import Proxy.interfaces.VideoLibrary;
 
 public class ProxyVideoLibraryClass implements VideoLibrary{
 

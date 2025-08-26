@@ -20,4 +20,8 @@ public class User {
         return userCartDetails;
     }
 
+    public int getUserId(){
+        return userId;
+    }
+
 }

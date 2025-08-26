@@ -1,4 +1,4 @@
-package Structural_Desing_pattern.Facade.model;
+package Facade.model;
 
 public class PaymentRequest {
     private String upiData;

@@ -1,13 +1,13 @@
-package Structural_Desing_pattern.Bridge;
+package Bridge;
 
-import Structural_Desing_pattern.Bridge.BankHierarchy.Bank;
-import Structural_Desing_pattern.Bridge.BankHierarchy.Impl.AXISBank;
-import Structural_Desing_pattern.Bridge.BankHierarchy.Impl.ICICIBank;
-import Structural_Desing_pattern.Bridge.BankHierarchy.Impl.SBIBank;
-import Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy.Impl.CardPaymentPlatform;
-import Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy.Impl.NetBankingPaymentPlatform;
-import Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy.Impl.UPIPaymentPlatform;
-import Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy.PaymentPlatform;
+import Bridge.BankHierarchy.Bank;
+import Bridge.BankHierarchy.Impl.AXISBank;
+import Bridge.BankHierarchy.Impl.ICICIBank;
+import Bridge.BankHierarchy.Impl.SBIBank;
+import Bridge.PaymentPlatformsHierarchy.Impl.CardPaymentPlatform;
+import Bridge.PaymentPlatformsHierarchy.Impl.NetBankingPaymentPlatform;
+import Bridge.PaymentPlatformsHierarchy.Impl.UPIPaymentPlatform;
+import Bridge.PaymentPlatformsHierarchy.PaymentPlatform;
 
 public class Client {
     public static void main(String[] args) {

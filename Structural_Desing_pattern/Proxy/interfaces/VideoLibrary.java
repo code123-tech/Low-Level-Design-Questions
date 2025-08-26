@@ -1,4 +1,4 @@
-package Structural_Desing_pattern.Proxy.interfaces;
+package Proxy.interfaces;
 
 import java.util.List;
 

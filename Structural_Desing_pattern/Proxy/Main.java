@@ -1,8 +1,8 @@
-package Structural_Desing_pattern.Proxy;
+package Proxy;
 
-import Structural_Desing_pattern.Proxy.ProxyClasses.ProxyVideoLibraryClass;
-import Structural_Desing_pattern.Proxy.RealClasses.VideoLibraryClass;
-import Structural_Desing_pattern.Proxy.interfaces.VideoLibrary;
+import Proxy.ProxyClasses.ProxyVideoLibraryClass;
+import Proxy.RealClasses.VideoLibraryClass;
+import Proxy.interfaces.VideoLibrary;
 
 public class Main {
     

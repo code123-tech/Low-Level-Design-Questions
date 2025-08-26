@@ -1,7 +1,7 @@
-package Structural_Desing_pattern.Facade.PaymentModeProcessors.Impl;
+package Facade.PaymentModeProcessors.Impl;
 
-import Structural_Desing_pattern.Facade.PaymentModeProcessors.PaymentModeProcessor;
-import Structural_Desing_pattern.Facade.model.PaymentRequest;
+import Facade.PaymentModeProcessors.PaymentModeProcessor;
+import Facade.model.PaymentRequest;
 
 public class CardPaymentModeProcessor  implements PaymentModeProcessor {
 

@@ -1,9 +1,9 @@
-package Structural_Desing_pattern.Facade;
+package Facade;
 
-import Structural_Desing_pattern.Facade.PaymentModeProcessors.PaymentModeProcessor;
-import Structural_Desing_pattern.Facade.factory.PaymentModeProcessorFactory;
-import Structural_Desing_pattern.Facade.model.PaymentMode;
-import Structural_Desing_pattern.Facade.model.PaymentRequest;
+import Facade.PaymentModeProcessors.PaymentModeProcessor;
+import Facade.factory.PaymentModeProcessorFactory;
+import Facade.model.PaymentMode;
+import Facade.model.PaymentRequest;
 
 public class TxnProcessorFacade {
     public void processTransaction(PaymentRequest paymentRequest, PaymentMode paymentMode){

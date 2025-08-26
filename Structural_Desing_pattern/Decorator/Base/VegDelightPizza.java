@@ -1,4 +1,4 @@
-package Structural_Desing_pattern.Decorator.Base;
+package Decorator.Base;
 
 public class VegDelightPizza extends BasePizza{
     private int price = 120;

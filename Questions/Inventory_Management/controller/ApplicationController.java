@@ -12,13 +12,13 @@ import strategy.WarehouseSelectionStrategy;
 
 public class ApplicationController {
 
-    UserController userController;
+    UserController1 userController;
     OrderController orderController;
     WarehouseController warehouseController;
 
     public ApplicationController(List<User> userList, List<Warehouse> warehouseList){
 
-        this.userController = new UserController(userList);
+        this.userController = new UserController1(userList);
         this.orderController = new OrderController();
         this.warehouseController = new WarehouseController(warehouseList, null);
     }

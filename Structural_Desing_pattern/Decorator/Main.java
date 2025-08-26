@@ -1,10 +1,10 @@
-package Structural_Desing_pattern.Decorator;
+package Decorator;
 
-import Structural_Desing_pattern.Decorator.Base.BasePizza;
-import Structural_Desing_pattern.Decorator.Base.FarmHousePizza;
-import Structural_Desing_pattern.Decorator.Base.VegDelightPizza;
-import Structural_Desing_pattern.Decorator.Decorators.ExtraCheeseDecorator;
-import Structural_Desing_pattern.Decorator.Decorators.MushroomDecorator;
+import Decorator.Base.BasePizza;
+import Decorator.Base.FarmHousePizza;
+import Decorator.Base.VegDelightPizza;
+import Decorator.Decorators.ExtraCheeseDecorator;
+import Decorator.Decorators.MushroomDecorator;
 
 public class Main {
     public static void main(String[] args) {

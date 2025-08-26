@@ -1,4 +1,4 @@
-package Structural_Desing_pattern.Composite;
+package Composite;
 
 public class Main {
 

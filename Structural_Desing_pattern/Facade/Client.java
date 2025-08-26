@@ -1,7 +1,7 @@
-package Structural_Desing_pattern.Facade;
+package Facade;
 
-import Structural_Desing_pattern.Facade.model.PaymentMode;
-import Structural_Desing_pattern.Facade.model.PaymentRequest;
+import Facade.model.PaymentMode;
+import Facade.model.PaymentRequest;
 
 public class Client {
     public static void main(String[] args) {

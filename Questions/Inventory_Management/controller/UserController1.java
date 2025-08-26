@@ -4,11 +4,11 @@ import java.util.List;
 
 import models.User;
 
-public class UserController {
+public class UserController1 {
 
     List<User> userList;
 
-    public UserController(List<User> userList){
+    public UserController1(List<User> userList){
         this.userList = userList;
     }
 

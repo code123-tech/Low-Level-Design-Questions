@@ -1,6 +1,6 @@
-package Structural_Desing_pattern.Bridge.BankHierarchy.Impl;
+package Bridge.BankHierarchy.Impl;
 
-import Structural_Desing_pattern.Bridge.BankHierarchy.Bank;
+import Bridge.BankHierarchy.Bank;
 
 public class ICICIBank implements Bank {
     @Override
