@@ -50,6 +50,7 @@
   | [Inventory Management](./Questions/Inventory_Management/) | :white_check_mark: |
   | [Word Processor](./Questions/Word_Processor/) | :white_check_mark: |
   | [Auction System](./Questions/Auction_System/) | :white_check_mark: |
+  | [Traffic Signal System](./Questions/TrafficSignalSystem/) | :white_check_mark: |
 
 #### References
 - For more, [check here](https://github.com/prasadgujar/low-level-design-primer/blob/master/README.md)
