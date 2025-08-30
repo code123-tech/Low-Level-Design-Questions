@@ -59,7 +59,6 @@
 
 
 #### Diagram
-![Example Of State Pattern](./StateDPExample.png)
 
 ##### Class Diagram (Mermaid)
 

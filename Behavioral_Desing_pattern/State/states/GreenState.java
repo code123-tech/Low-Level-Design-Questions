@@ -3,6 +3,7 @@ package Behavioral_Desing_pattern.State.states;
 import Behavioral_Desing_pattern.State.TrafficSignal;
 
 public class GreenState implements State {
+    
     private TrafficSignal signal;
 
     @Override
