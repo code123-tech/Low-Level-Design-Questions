@@ -1,4 +1,4 @@
-package Questions.StackOverflowLLD.enums;
+package Questions.StackOverflowLLD.Enums;
 
 public enum VoteType {
     

@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import Questions.StackOverflowLLD.enums.EventType;
-import Questions.StackOverflowLLD.enums.VoteType;
+import Questions.StackOverflowLLD.Enums.EventType;
+import Questions.StackOverflowLLD.Enums.VoteType;
 import Questions.StackOverflowLLD.patterns.observer.Observer;
 
 public abstract class Post extends ContentDefinition {

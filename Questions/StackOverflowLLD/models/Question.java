@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-import Questions.StackOverflowLLD.enums.EventType;
+import Questions.StackOverflowLLD.Enums.EventType;
 
 public class Question extends Post{
 
