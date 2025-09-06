@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-import Questions.StackOverflowLLD.Enums.EventType;
+import Questions.StackOverflowLLD.enums.EventType;
 
 public class Question extends Post{
 
@@ -43,7 +43,8 @@ public class Question extends Post{
 
     }
 
-
-
-
+    public String getTitle() { return title; }
+    public Set<Tag> getTags() { return tags; }
+    public List<Answer> getAnswers() { return answers; }
+    
 }
