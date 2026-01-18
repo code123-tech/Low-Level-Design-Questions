@@ -2,10 +2,10 @@ package Behavioral_Desing_pattern.Command.SimpleBehaviour;
 
 import Behavioral_Desing_pattern.Command.SimpleBehaviour.commands.GarageDoorOpenCommand;
 import Behavioral_Desing_pattern.Command.SimpleBehaviour.commands.LightOnCommand;
-import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.GarageDoor;
+import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.Impl.GarageDoor;
 import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.IGarageDoor;
-import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.Light;
-import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.RoomLight;
+import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.ILight;
+import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.Impl.Light;
 
 // 1. This is our Client in command pattern
 public class SimpleRemoteControlTest {
@@ -15,8 +15,8 @@ public class SimpleRemoteControlTest {
         SimpleRemoteControl remote = new SimpleRemoteControl();
 
         // 3. The Light, garageDoor is our Receiver, that will perform the actual action when the command is executed
-        Light light = new RoomLight();
-        IGarageDoor garageDoor = new GarageDoor();
+        ILight light = new Light("Living Room");
+        IGarageDoor garageDoor = new GarageDoor("Garage");
 
         // 4. Command is created and associated with the receiver
         LightOnCommand lightOnCommand = new LightOnCommand(light);

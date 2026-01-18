@@ -2,21 +2,21 @@ package Behavioral_Desing_pattern.Command.SimpleBehaviour.commands;
 
 import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.IGarageDoor;
 
-public class GarageDoorOpenCommand implements Command {
+public class GarageDoorCloseCommand implements Command {
 
     private final IGarageDoor garageDoor;
 
-    public GarageDoorOpenCommand(IGarageDoor garageDoor) {
+    public GarageDoorCloseCommand(IGarageDoor garageDoor) {
         this.garageDoor = garageDoor;
     }
 
     @Override
     public void execute() {
-        garageDoor.up();
+        garageDoor.down();
     }
 
     @Override
     public void undo() {
-        garageDoor.down();
+        garageDoor.up();
     }
 }

@@ -2,21 +2,21 @@ package Behavioral_Desing_pattern.Command.SimpleBehaviour.commands;
 
 import Behavioral_Desing_pattern.Command.SimpleBehaviour.vendors.ILight;
 
-public class LightOnCommand implements Command {
+public class LightOffCommand implements Command {
 
     private final ILight light;
 
-    public LightOnCommand(ILight light) {
+    public LightOffCommand(ILight light) {
         this.light = light;
     }
 
     @Override
     public void execute() {
-        light.turnOn();
+        light.turnOff();
     }
 
     @Override
     public void undo() {
-        light.turnOff();
+        light.turnOn();
     }
 }
