@@ -11,7 +11,7 @@
  | [Iterator Pattern](./Behavioral_Desing_pattern/Iterator/)                    | [Abstract Factory Pattern](./creational_Desing_pattern/AbstractFactory) | [Composite Pattern](./Structural_Desing_pattern/Composite/) |
  | [Mediator Pattern](./Behavioral_Desing_pattern/Mediator/)                    |  | [Flyweight Pattern](./Structural_Desing_pattern/Flyweight/) |
  | [State Pattern](./Behavioral_Desing_pattern/State/)                          |  | [Adapter Pattern](./Structural_Desing_pattern/Adapter/)     |
- | [Command Pattern](./Behavioral_Design_pattern/Command/)                      |  |                                                             |
+ | [Command Pattern](./Behavioral_Desing_pattern/Command/)                      |  |                                                             |
 
 #### SOLID Principles  
 [Article of SOLID Principle](https://swapnilagarwal2001.medium.com/solid-principles-understanding-1ae5b4fc1efa) 
