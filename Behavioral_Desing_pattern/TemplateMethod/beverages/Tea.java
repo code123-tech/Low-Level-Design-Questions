@@ -1,4 +1,4 @@
-package TemplateMethod.beverages;
+package Behavioral_Desing_pattern.TemplateMethod.beverages;
 
 public class Tea extends CaffeineBeverage {
 

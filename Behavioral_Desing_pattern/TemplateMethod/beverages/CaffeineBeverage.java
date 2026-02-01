@@ -1,4 +1,4 @@
-package TemplateMethod.beverages;
+package Behavioral_Desing_pattern.TemplateMethod.beverages;
 
 /**
  * Chapter 8 (HFDP): Template Method Pattern

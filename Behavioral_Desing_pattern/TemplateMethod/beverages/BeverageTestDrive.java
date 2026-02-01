@@ -1,11 +1,13 @@
-package TemplateMethod.beverages;
+package Behavioral_Desing_pattern.TemplateMethod.beverages;
 
-import TemplateMethod.beverages.hooks.CaffeineBeverageWithHook;
-import TemplateMethod.beverages.hooks.CoffeeWithHook;
-import TemplateMethod.beverages.hooks.TeaWithHook;
+
+import Behavioral_Desing_pattern.TemplateMethod.beverages.hooks.CaffeineBeverageWithHook;
+import Behavioral_Desing_pattern.TemplateMethod.beverages.hooks.CoffeeWithHook;
+import Behavioral_Desing_pattern.TemplateMethod.beverages.hooks.TeaWithHook;
 
 public class BeverageTestDrive {
     public static void main(String[] args) {
+
         System.out.println("=== Template Method (no hook) ===");
         CaffeineBeverage tea = new Tea();
         CaffeineBeverage coffee = new Coffee();

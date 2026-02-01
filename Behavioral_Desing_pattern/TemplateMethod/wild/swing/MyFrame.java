@@ -1,4 +1,4 @@
-package TemplateMethod.wild.swing;
+package Behavioral_Desing_pattern.TemplateMethod.wild.swing;
 
 import javax.swing.JFrame;
 import java.awt.Graphics;

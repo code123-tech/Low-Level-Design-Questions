@@ -1,4 +1,4 @@
-package TemplateMethod.beverages.hooks;
+package Behavioral_Desing_pattern.TemplateMethod.beverages.hooks;
 
 /**
  * Template Method + Hook example (Chapter 8).

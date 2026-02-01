@@ -1,4 +1,4 @@
-package TemplateMethod.beverages.hooks;
+package Behavioral_Desing_pattern.TemplateMethod.beverages.hooks;
 
 import java.io.BufferedReader;
 import java.io.IOException;

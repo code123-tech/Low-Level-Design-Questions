@@ -1,4 +1,4 @@
-package TemplateMethod.wild.ducks;
+package Behavioral_Desing_pattern.TemplateMethod.wild.ducks;
 
 /**
  * Chapter 8 "Template Methods in the Wild":
