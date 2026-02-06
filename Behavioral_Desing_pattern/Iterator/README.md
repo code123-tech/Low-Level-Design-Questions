@@ -8,6 +8,13 @@
 2. Create concrete iterator class which implements the iterator interface and provides the implementation for the methods.
 3. create an interface for aggregate with methods like createIterator() etc.
 
+#### Article
+- `Iterator_Pattern_Article.md` (Pattern Recognition style, based on HFDP Chapter 9)
+
+#### Book-based implementation (Objectville Menus)
+- `objectville/` contains the **PancakeHouseMenu + DinerMenu + Waitress** example from the book.
+- Run: `Behavioral_Desing_pattern.Iterator.objectville.MenuTestDrive`
+
 #### Diagram
 ![Example Of Null Object Pattern](./IteratorPattern.png)
 
