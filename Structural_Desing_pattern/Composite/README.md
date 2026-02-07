@@ -10,6 +10,13 @@
 3. The composite is a container which can have leaf and other composite objects.
 4. Composite object should have a list of child objects (can be leaf or can be container).
 
+#### Article
+- `Composite_Pattern_Article.md` (Pattern Recognition style; FileSystem example + Menu/Submenu exercise)
+
+#### Practice code (Menus as tree)
+- `objectville/` contains an implementation of **Menu/MenuItem** as a tree.
+- Run: `Composite.objectville.MenuTestDrive`
+
 #### Diagram
 ![Example Of Composite Pattern](./CompositeDPExample.png)
 
