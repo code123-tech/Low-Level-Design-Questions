@@ -1,5 +1,16 @@
 - State design pattern is a behavioural design pattern which helps to control the behaviour of the object based on certain states. This pattern is totally inspired from the `finite state machine` concept.
 
+#### Article
+
+- Read the full article here: `State_Pattern_Article.md`
+
+#### Examples in this folder
+
+- **Main example (used in article)**: `gumball/` (Mighty Gumball Machine)
+  - Run: `Behavioral_Desing_pattern.State.gumball.GumballMachineTestDrive`
+- **Exercise example**: Traffic Signal (`TrafficSignal`, `states/*`)
+  - Run: `Behavioral_Desing_pattern.State.Main`
+
 #### example
 - For ex: A traffic signal can be in red, green or yellow state, on each state it can move to next state based on certain conditions or rules. Writing a lot of if-elif-else conditions can be cumborsome, and violates the `open/close` and `single responsibility` principle. So, state pattern helps to maintain a seperate concrete class for each state of the object.
 - This seperate state extends/implements a common interface which defines the behaviour of the object in each state. Now, each concrete state class can define its own behaviour.
