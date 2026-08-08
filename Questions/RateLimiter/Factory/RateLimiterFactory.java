@@ -1,13 +1,13 @@
-package Factory;
+package Questions.RateLimiter.Factory;
 
-import enums.RateLimiterAlgorithm;
-import model.RateLimitRule;
-import strategies.FixedWindowCounterStrategy;
-import strategies.LeakyBucketStrategy;
-import strategies.RateLimiterStrategy;
-import strategies.SlidingWindowCounterStrategy;
-import strategies.SlidingWindowLogStrategy;
-import strategies.TokenBucketStrategy;
+import Questions.RateLimiter.enums.RateLimiterAlgorithm;
+import Questions.RateLimiter.model.RateLimitRule;
+import Questions.RateLimiter.strategies.FixedWindowCounterStrategy;
+import Questions.RateLimiter.strategies.LeakyBucketStrategy;
+import Questions.RateLimiter.strategies.RateLimiterStrategy;
+import Questions.RateLimiter.strategies.SlidingWindowCounterStrategy;
+import Questions.RateLimiter.strategies.SlidingWindowLogStrategy;
+import Questions.RateLimiter.strategies.TokenBucketStrategy;
 
 /**
  * Maps an algorithm enum to its strategy.
@@ -20,24 +20,13 @@ public class RateLimiterFactory {
 
     public static RateLimiterStrategy getRateLimiter(RateLimiterAlgorithm algorithm, RateLimitRule rule) {
 
-        switch (algorithm) {
+        return switch (algorithm) {
+            case TOKEN_BUCKET -> new TokenBucketStrategy(rule);
+            case LEAKY_BUCKET -> new LeakyBucketStrategy(rule);
+            case FIXED_WINDOW_COUNTER -> new FixedWindowCounterStrategy(rule);
+            case SLIDING_WINDOW_LOG -> new SlidingWindowLogStrategy(rule);
+            case SLIDING_WINDOW_COUNTER -> new SlidingWindowCounterStrategy(rule);
+        };
 
-            case TOKEN_BUCKET:
-                return new TokenBucketStrategy(rule);
-
-            case LEAKY_BUCKET:
-                return new LeakyBucketStrategy(rule);
-
-            case FIXED_WINDOW_COUNTER:
-                return new FixedWindowCounterStrategy(rule);
-
-            case SLIDING_WINDOW_LOG:
-                return new SlidingWindowLogStrategy(rule);
-
-            case SLIDING_WINDOW_COUNTER:
-                return new SlidingWindowCounterStrategy(rule);
-        }
-
-        throw new IllegalArgumentException("Invalid rate limiter algorithm");
     }
 }

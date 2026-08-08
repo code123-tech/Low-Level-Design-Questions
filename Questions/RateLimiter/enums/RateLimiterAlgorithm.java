@@ -1,4 +1,4 @@
-package enums;
+package Questions.RateLimiter.enums;
 
 public enum RateLimiterAlgorithm {
 

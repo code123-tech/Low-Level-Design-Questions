@@ -1,4 +1,4 @@
-package strategies;
+package Questions.RateLimiter.strategies;
 
 /**
  * Strategy role — one implementation per rate limiting algorithm.

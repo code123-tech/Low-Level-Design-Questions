@@ -1,4 +1,4 @@
-package Flyweight;
+package Structural_Desing_pattern.Flyweight;
 
 import java.util.HashMap;
 import java.util.Map;

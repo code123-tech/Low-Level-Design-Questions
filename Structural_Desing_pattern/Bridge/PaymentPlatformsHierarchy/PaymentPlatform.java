@@ -1,6 +1,6 @@
-package Bridge.PaymentPlatformsHierarchy;
+package Structural_Desing_pattern.Bridge.PaymentPlatformsHierarchy;
 
-import Bridge.BankHierarchy.Bank;
+import Structural_Desing_pattern.Bridge.BankHierarchy.Bank;
 
 abstract public class PaymentPlatform {
     public Bank bank;

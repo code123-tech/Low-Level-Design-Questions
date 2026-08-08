@@ -1,4 +1,4 @@
-package model;
+package Questions.RateLimiter.model;
 
 /**
  * An incoming request the limiter must accept or reject.

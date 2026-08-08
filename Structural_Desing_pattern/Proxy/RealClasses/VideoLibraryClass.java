@@ -1,9 +1,9 @@
-package Proxy.RealClasses;
+package Structural_Desing_pattern.Proxy.RealClasses;
 
 import java.util.Arrays;
 import java.util.List;
 
-import Proxy.interfaces.VideoLibrary;
+import Structural_Desing_pattern.Proxy.interfaces.VideoLibrary;
 
 public class VideoLibraryClass implements VideoLibrary{
 

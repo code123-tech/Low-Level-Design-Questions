@@ -8,7 +8,13 @@
 **/temp/
 **/cache/
 **/*.class
-**/.idea/
+# IntelliJ — the module layout is shared (one source root at the repo root, see
+# Low-Level-Design-Questions.iml), per-user state is not. Git cannot re-include a file
+# under an excluded directory, so exclude .idea/* rather than .idea/ itself.
+/.idea/*
+!/.idea/modules.xml
+!/.idea/misc.xml
+!/.idea/encodings.xml
 **/.vscode/
 **/.DS_Store
 **/.classpath

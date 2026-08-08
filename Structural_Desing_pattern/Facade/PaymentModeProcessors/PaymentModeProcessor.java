@@ -1,6 +1,6 @@
-package Facade.PaymentModeProcessors;
+package Structural_Desing_pattern.Facade.PaymentModeProcessors;
 
-import Facade.model.PaymentRequest;
+import Structural_Desing_pattern.Facade.model.PaymentRequest;
 
 public interface PaymentModeProcessor {
     void validate(PaymentRequest paymentRequest);

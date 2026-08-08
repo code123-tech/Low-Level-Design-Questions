@@ -1,10 +1,10 @@
-package Factory;
+package Questions.SplitWise.Factory;
 
-import enums.ExpenseSplitType;
-import model.SplitTypes.EqualExpenseSplit;
-import model.SplitTypes.ExpenseSplit;
-import model.SplitTypes.PercentageExpenseSplit;
-import model.SplitTypes.UnequalExpenseSplit;
+import Questions.SplitWise.enums.ExpenseSplitType;
+import Questions.SplitWise.model.SplitTypes.EqualExpenseSplit;
+import Questions.SplitWise.model.SplitTypes.ExpenseSplit;
+import Questions.SplitWise.model.SplitTypes.PercentageExpenseSplit;
+import Questions.SplitWise.model.SplitTypes.UnequalExpenseSplit;
 
 public class SplitFactory {
 

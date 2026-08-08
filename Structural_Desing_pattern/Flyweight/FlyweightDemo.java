@@ -1,4 +1,4 @@
-package Flyweight;
+package Structural_Desing_pattern.Flyweight;
 
 public class FlyweightDemo {
     public static void main(String[] args) {
