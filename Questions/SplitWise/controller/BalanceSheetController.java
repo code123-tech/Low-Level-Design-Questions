@@ -1,12 +1,12 @@
-package controller;
+package Questions.SplitWise.controller;
 
 import java.util.List;
 import java.util.Map;
 
-import model.Balance;
-import model.Split;
-import model.User;
-import model.UserExpenseBalanceSheet;
+import Questions.SplitWise.model.Balance;
+import Questions.SplitWise.model.Split;
+import Questions.SplitWise.model.User;
+import Questions.SplitWise.model.UserExpenseBalanceSheet;
 
 public class BalanceSheetController {
 

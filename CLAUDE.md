@@ -65,9 +65,35 @@ Mirror `Behavioral_Desing_pattern/Observer/`:
 ## Code style
 
 - Java, plain — no framework dependencies unless the problem requires one.
-- One public class per file. Package declarations match folder path where used.
+- One public class per file.
 - Keep `main` small — it should read like a script that exercises the design.
 - Favor interfaces + strategy/factory over `if/else` chains (the point of these exercises).
+
+## Packages — one source root, no exceptions
+
+**The repo root is the single Java source root.** Every `package` declaration is that
+file's path from the repo root, with `/` swapped for `.`:
+
+```
+Questions/RateLimiter/Main.java              -> package Questions.RateLimiter;
+Questions/RateLimiter/model/Request.java     -> package Questions.RateLimiter.model;
+Behavioral_Desing_pattern/Observer/Main.java -> package Behavioral_Desing_pattern.Observer;
+```
+
+This is what makes any class in the repo runnable without per-folder IDE setup, and it is
+enforced by `Low-Level-Design-Questions.iml` (committed).
+
+Do **not** write a question or pattern folder as if it were its own source root — no
+default-package `Main`, no bare `package model;`. Two folders doing that produced a
+duplicate `Main` in the default package and forced the whole repo to be mis-marked as an
+IntelliJ *resource* root, which silently un-resolved every other question. Do not mark
+individual folders as source roots to work around a mismatch; fix the package declaration.
+
+Verify a change with a full-repo compile from the repo root:
+
+```bash
+javac -d /tmp/lld-out $(find . -name "*.java")
+```
 
 ## Helpers
 

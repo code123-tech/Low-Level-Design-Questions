@@ -1,8 +1,8 @@
-package model.SplitTypes;
+package Questions.SplitWise.model.SplitTypes;
 
 import java.util.List;
 
-import model.Split;
+import Questions.SplitWise.model.Split;
 
 public class UnequalExpenseSplit implements ExpenseSplit{
 

@@ -1,4 +1,4 @@
-package model;
+package Questions.SplitWise.model;
 
 public class Balance {
 

@@ -1,6 +1,6 @@
-package Decorator.Decorators;
+package Structural_Desing_pattern.Decorator.Decorators;
 
-import Decorator.Base.BasePizza;
+import Structural_Desing_pattern.Decorator.Base.BasePizza;
 
 public class MushroomDecorator extends Decorator{
 

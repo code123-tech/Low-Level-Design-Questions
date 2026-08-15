@@ -1,15 +1,17 @@
+package Questions.Inventory_Management;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import controller.ApplicationController;
-import models.Address;
-import models.Inventory;
-import models.Order;
-import models.Product;
-import models.ProductCategory;
-import models.User;
-import models.Warehouse;
-import strategy.NearestWarehouseSelectionStrategy;
+import Questions.Inventory_Management.controller.ApplicationController;
+import Questions.Inventory_Management.models.Address;
+import Questions.Inventory_Management.models.Inventory;
+import Questions.Inventory_Management.models.Order;
+import Questions.Inventory_Management.models.Product;
+import Questions.Inventory_Management.models.ProductCategory;
+import Questions.Inventory_Management.models.User;
+import Questions.Inventory_Management.models.Warehouse;
+import Questions.Inventory_Management.strategy.NearestWarehouseSelectionStrategy;
 
 public class Main { 
 

@@ -1,4 +1,4 @@
-package enums;
+package Questions.SplitWise.enums;
 
 public enum ExpenseSplitType {
 

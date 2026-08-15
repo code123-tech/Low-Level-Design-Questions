@@ -1,6 +1,6 @@
-package Bridge.BankHierarchy.Impl;
+package Structural_Desing_pattern.Bridge.BankHierarchy.Impl;
 
-import Bridge.BankHierarchy.Bank;
+import Structural_Desing_pattern.Bridge.BankHierarchy.Bank;
 
 public class SBIBank implements Bank{
     @Override

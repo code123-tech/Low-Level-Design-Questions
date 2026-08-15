@@ -1,13 +1,13 @@
-package controller;
+package Questions.SplitWise.controller;
 
 import java.util.List;
 
-import Factory.SplitFactory;
-import enums.ExpenseSplitType;
-import model.Expense;
-import model.Split;
-import model.User;
-import model.SplitTypes.ExpenseSplit;
+import Questions.SplitWise.Factory.SplitFactory;
+import Questions.SplitWise.enums.ExpenseSplitType;
+import Questions.SplitWise.model.Expense;
+import Questions.SplitWise.model.Split;
+import Questions.SplitWise.model.User;
+import Questions.SplitWise.model.SplitTypes.ExpenseSplit;
 
 public class ExpenseController {
 

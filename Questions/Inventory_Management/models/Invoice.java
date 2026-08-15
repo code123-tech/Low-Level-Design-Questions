@@ -1,4 +1,4 @@
-package models;
+package Questions.Inventory_Management.models;
 
 public class Invoice {
 

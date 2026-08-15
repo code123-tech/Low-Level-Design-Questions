@@ -1,4 +1,4 @@
-package model;
+package Questions.SplitWise.model;
 
 import java.util.HashMap;
 import java.util.Map;

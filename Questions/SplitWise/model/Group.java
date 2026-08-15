@@ -1,10 +1,10 @@
-package model;
+package Questions.SplitWise.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import controller.ExpenseController;
-import enums.ExpenseSplitType;
+import Questions.SplitWise.controller.ExpenseController;
+import Questions.SplitWise.enums.ExpenseSplitType;
 
 public class Group {
 

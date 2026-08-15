@@ -1,4 +1,4 @@
-package Flyweight;
+package Structural_Desing_pattern.Flyweight;
 
 public class Label {
     private final int x;

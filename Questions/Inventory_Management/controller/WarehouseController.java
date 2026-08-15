@@ -1,9 +1,9 @@
-package controller;
+package Questions.Inventory_Management.controller;
 
 import java.util.List;
 
-import models.Warehouse;
-import strategy.WarehouseSelectionStrategy;
+import Questions.Inventory_Management.models.Warehouse;
+import Questions.Inventory_Management.strategy.WarehouseSelectionStrategy;
 
 public class WarehouseController {
 
