@@ -56,7 +56,7 @@ for (int i = 0; i < breakfastItems.size(); i++) {
     System.out.print(menuItem.getName() + " ");
     System.out.println(menuItem.getPrice() + " ");
     System.out.println(menuItem.getDescription());
-}
+}f
 
 // Loop #2 for Array
 for (int i = 0; i < lunchItems.length; i++) {

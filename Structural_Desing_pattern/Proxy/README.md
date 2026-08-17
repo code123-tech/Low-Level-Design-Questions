@@ -1,5 +1,13 @@
 - Proxy design pattern is a structural design pattern which helps to create a middleware object which acts as a substitute object for a original object. it can control access for the real object.
 
+#### Article
+
+- Read the full article here: `Proxy_Pattern_Article.md`
+
+#### Code (in this folder)
+
+- Run: `Proxy.Main`
+
 #### example
 - For example, a caching layer between server and DB.
 - Load balancer works as proxy server to routing the request.
