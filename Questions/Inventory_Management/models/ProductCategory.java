@@ -1,4 +1,4 @@
-package models;
+package Questions.Inventory_Management.models;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

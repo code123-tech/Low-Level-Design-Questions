@@ -1,8 +1,8 @@
-package strategy;
+package Questions.Inventory_Management.strategy;
 
 import java.util.List;
 
-import models.Warehouse;
+import Questions.Inventory_Management.models.Warehouse;
 
 public abstract class WarehouseSelectionStrategy {
 

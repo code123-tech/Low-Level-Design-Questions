@@ -1,9 +1,9 @@
-package controller;
+package Questions.SplitWise.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.User;
+import Questions.SplitWise.model.User;
 
 public class UserController {
 

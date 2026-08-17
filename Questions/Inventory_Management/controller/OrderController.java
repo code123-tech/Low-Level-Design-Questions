@@ -1,13 +1,13 @@
-package controller;
+package Questions.Inventory_Management.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import models.Order;
-import models.User;
-import models.Warehouse;
+import Questions.Inventory_Management.models.Order;
+import Questions.Inventory_Management.models.User;
+import Questions.Inventory_Management.models.Warehouse;
 
 public class OrderController {
 

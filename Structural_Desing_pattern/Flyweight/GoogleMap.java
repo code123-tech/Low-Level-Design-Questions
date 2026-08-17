@@ -1,4 +1,4 @@
-package Flyweight;
+package Structural_Desing_pattern.Flyweight;
 
 import java.util.ArrayList;
 import java.util.List;

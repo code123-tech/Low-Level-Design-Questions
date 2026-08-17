@@ -1,4 +1,4 @@
-package enums;
+package Questions.Inventory_Management.enums;
 
 public enum OrderStatus {
     

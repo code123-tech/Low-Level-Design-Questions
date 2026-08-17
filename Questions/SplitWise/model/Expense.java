@@ -1,9 +1,9 @@
-package model;
+package Questions.SplitWise.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import enums.ExpenseSplitType;
+import Questions.SplitWise.enums.ExpenseSplitType;
 
 public class Expense {
 

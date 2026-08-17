@@ -1,11 +1,11 @@
-package models;
+package Questions.Inventory_Management.models;
 
 import java.util.Map;
 
-import enums.OrderStatus;
-import models.Payment.Payment;
-import models.Payment.PaymentMode;
-import models.Payment.UPIPaymentMode;
+import Questions.Inventory_Management.enums.OrderStatus;
+import Questions.Inventory_Management.models.Payment.Payment;
+import Questions.Inventory_Management.models.Payment.PaymentMode;
+import Questions.Inventory_Management.models.Payment.UPIPaymentMode;
 
 public class Order {
 

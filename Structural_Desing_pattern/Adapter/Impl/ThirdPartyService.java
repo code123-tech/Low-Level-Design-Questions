@@ -1,4 +1,4 @@
-package Adapter.Impl;
+package Structural_Desing_pattern.Adapter.Impl;
 
 public class ThirdPartyService {
     public void request() {

@@ -1,14 +1,16 @@
+package Questions.SplitWise;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import controller.BalanceSheetController;
-import controller.GroupController;
-import controller.UserController;
-import enums.ExpenseSplitType;
-import model.Group;
-import model.Split;
-import model.User;
+import Questions.SplitWise.controller.BalanceSheetController;
+import Questions.SplitWise.controller.GroupController;
+import Questions.SplitWise.controller.UserController;
+import Questions.SplitWise.enums.ExpenseSplitType;
+import Questions.SplitWise.model.Group;
+import Questions.SplitWise.model.Split;
+import Questions.SplitWise.model.User;
 
 public class SplitWiseAppController {
 

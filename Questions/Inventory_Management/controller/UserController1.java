@@ -1,8 +1,8 @@
-package controller;
+package Questions.Inventory_Management.controller;
 
 import java.util.List;
 
-import models.User;
+import Questions.Inventory_Management.models.User;
 
 public class UserController1 {
 

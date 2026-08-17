@@ -1,14 +1,14 @@
-package controller;
+package Questions.Inventory_Management.controller;
 
 import java.util.List;
 
-import models.Cart;
-import models.Inventory;
-import models.Order;
-import models.ProductCategory;
-import models.User;
-import models.Warehouse;
-import strategy.WarehouseSelectionStrategy;
+import Questions.Inventory_Management.models.Cart;
+import Questions.Inventory_Management.models.Inventory;
+import Questions.Inventory_Management.models.Order;
+import Questions.Inventory_Management.models.ProductCategory;
+import Questions.Inventory_Management.models.User;
+import Questions.Inventory_Management.models.Warehouse;
+import Questions.Inventory_Management.strategy.WarehouseSelectionStrategy;
 
 public class ApplicationController {
 

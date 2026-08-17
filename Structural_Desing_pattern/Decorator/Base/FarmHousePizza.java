@@ -1,4 +1,4 @@
-package Decorator.Base;
+package Structural_Desing_pattern.Decorator.Base;
 
 public class FarmHousePizza extends BasePizza{
     private int price = 100;

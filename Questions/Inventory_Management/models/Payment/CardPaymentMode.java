@@ -1,4 +1,4 @@
-package models.Payment;
+package Questions.Inventory_Management.models.Payment;
 
 public class CardPaymentMode implements PaymentMode {
 
